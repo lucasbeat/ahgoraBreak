@@ -1,0 +1,71 @@
+.Filter_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 17em;
+    height: 9em;
+    border-radius: 50px;
+    box-shadow: 0 0 1em #2A2A33;
+    background-color:  #1199DD;
+}
+
+.Filter_container h1 {
+    font-size: 17px;
+
+    color: #2A2A33;
+}
+
+.Filter_day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15em;
+    border-radius: 50px;
+}
+
+.Filter_day h1 {
+    font-size: 14px;
+}
+
+.date_start {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.date_end, .date_start {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date_end h1  {
+    display: flex;
+    margin-left: 10px;
+    font-size: 13px;
+    width: 8em;
+
+    color: #2A2A33;
+}
+
+.date_start h1 {
+    display: flex;
+    margin-left: 10px;
+    font-size: 13px;
+    width: 10em;
+
+    color: #2A2A33;
+}
+
+.end_picker, .start_picker {
+    width: 5.5em;
+    height: 1em;
+    background-color: #1199DD;
+    color: #efefef;
+    border-radius: 5px;
+    border: 1px solid  #1199DD;
+    cursor: pointer;
+}

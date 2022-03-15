@@ -1,0 +1,24 @@
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: unset;
+    height: 120px;
+    z-index: 1;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 1em #2A2A33;
+    border: 1px solid #2A2A33;
+    background-color: #2A2A33;
+}
+
+.header_description {
+    height: 15%;
+    font-size: 15px;
+    color: #5a5a5d;
+}
+
+.logo {
+    width: 200px;
+    height: 80%;
+}
