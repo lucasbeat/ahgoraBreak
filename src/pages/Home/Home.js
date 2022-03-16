@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
+import { toast } from "react-toastify";
 import moment from "moment";
 
 import Header from "./Header/Header";
@@ -15,6 +16,12 @@ export default function Home() {
 
   const start = moment(startDate).format("DD/MM/YYYY");
   const end = moment(endDate).format("DD/MM/YYYY");
+
+  if (end < start) {
+    toast.error("A data final precisa ser maior que a data inicial!", {
+      toastId: "Error-id-01",
+    });
+  }
 
   useEffect(() => {
     async function getItems() {
