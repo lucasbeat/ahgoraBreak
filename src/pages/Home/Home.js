@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import moment from "moment";
 
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 import Breaks from "./Breaks/Breaks";
 import FilterDate from "../../components/Filter/FilterDate";
 
@@ -36,15 +37,18 @@ export default function Home() {
   }, [start, end]);
 
   return (
-    <div className="Home">
-      <Header />
-      <FilterDate
-        start={startDate}
-        end={endDate}
-        HandleStart={(date) => setStartDate(date)}
-        HandleEnd={(date) => setEndDate(date)}
-      />
-      <Breaks breaks={breaks} />
-    </div>
+    <>
+      <div className="Home">
+        <Header />
+        <FilterDate
+          start={startDate}
+          end={endDate}
+          HandleStart={(date) => setStartDate(date)}
+          HandleEnd={(date) => setEndDate(date)}
+        />
+        <Breaks breaks={breaks} />
+        <Footer />
+      </div>
+    </>
   );
 }

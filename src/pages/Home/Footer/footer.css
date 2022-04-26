@@ -1,0 +1,14 @@
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: unset;
+    margin-top: 50px;
+    height: 3vh;
+    border-radius: 15px 15px 0 0;
+    z-index: 1;
+    box-shadow: 0 0 1em #2A2A33;
+    border: 1px solid #2A2A33;
+    background-color: #2A2A33;
+}

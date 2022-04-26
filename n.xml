@@ -1,0 +1,32 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="https://www.ahgora.com.br/ws">
+<soapenv:Header/>
+<soapenv:Body>
+<sincFuncionarios>
+<empresa xsi:type="xsd:string">f9ff2684926dff43a791a2e89e24815d</empresa>
+<funcionarios>
+<funcionario>
+    <matricula xsi:type="xsd:string">200066067563</matricula>
+    <pis xsi:type="xsd:string">13532771771</pis>
+    <nome xsi:type="xsd:string">KAMILA FRANCISCA DE OLIVEIRA</nome>
+    <passwd xsi:type="xsd:string">12345</passwd>
+    <localizacoes>66-HQ-OPEC</localizacoes>
+    <localizacoes>JULIANA MARTINS CUNHA FRANCA</localizacoes>
+    <dataAdmissao xsi:type="xsd:string">20042022</dataAdmissao>
+    <ctps xsi:type="xsd:string">376.552.888-95</ctps>
+    <centroCusto xsi:type="xsd:string">00033</centroCusto>
+    <cargo xsi:type="xsd:string">ANALISTA OPERACOES ADMINISTRATIVAS JR</cargo>
+    <departamento xsi:type="xsd:string">TEMP &amp; PERM OPERACOES ADMINISTRATIVAS</departamento>
+    <cnpj xsi:type="xsd:string">04.236.064/0001-47</cnpj>
+    <cpf xsi:type="xsd:string">376.552.888-95</cpf>
+    <dataNascimento xsi:type="xsd:string">08/10/1988</dataNascimento>
+    <sexo xsi:type="xsd: string">F</sexo>
+    <email xsi:type="xsd: string"></email>
+    <codInterno xsi:type="xsd: string">200066067563</codInterno>
+    <telefoneDDD xsi:type="xsd: string">11</telefoneDDD>
+    <telefone xsi:type="xsd: string">11943412756</telefone>
+    <rg xsi:type="xsd: string">449293397</rg>
+</funcionario>
+</funcionarios>
+</sincFuncionarios>
+</soapenv:Body>
+</soapenv:Envelope>
